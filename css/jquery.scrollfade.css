@@ -1,0 +1,106 @@
+/* might want to give these elements the same look */
+	.scroll-fade-button,.scroll-fade-track{
+	}
+	.scroll-fade-button,.scroll-fade-thumb{
+		background-color:rgba(0,0,0,.25);
+	}
+
+/* arrow buttons on top and bottom of the track */
+	.scroll-fade-button{
+		background-repeat:no-repeat;
+		background-position:center center;
+		border:0px;
+		cursor:pointer;
+		display:block;
+		height:16px;
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		right:0px;
+		width:16px;
+	}
+	.scroll-fade-button.scroll-fade-black{
+		background-image:url(data:image/gif;base64,R0lGODlhCAAFAIAAAAAAAP///yH5BAEAAAEALAAAAAAIAAUAAAIJjAGmiMv9ogQFADs=);
+	}
+	.scroll-fade-button.scroll-fade-white{
+		background-image:url(data:image/gif;base64,R0lGODlhCAAFAIAAAP///wAAACH5BAEAAAEALAAAAAAIAAUAAAIJjAGmiMv9ogQFADs=);
+	}
+	.scroll-fade-up{
+		top:0px;
+	}
+/* keep the 180 rotation */
+	.scroll-fade-down{
+		bottom:0px;
+		-webkit-transform:rotate(180deg);
+		-moz-transform:rotate(180deg);
+		-o-transform:rotate(180deg);
+		-ms-transform:rotate(180deg);
+		transform:rotate(180deg);
+	}
+
+/* the avaiable area for the scroll thumb/slider */
+	.scroll-fade-track{
+		border:0px;
+		bottom:16px;
+		display:block;
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		right:0px;
+		top:16px;
+		width:16px;
+	}
+/* the thumb/slider */
+	.scroll-fade-thumb{
+	  position:absolute;
+	  width:100%;
+	}
+
+
+/* You probably dont want to mess with these */
+	.scroll-fade-scrollbar{
+		border:0px;
+		bottom:0px;
+		display:none;
+		margin:0px;
+		padding:0px;
+		position:absolute;
+		right:0px;
+		top:0px;
+		width:16px;
+	}
+	.scroll-fade-outer{
+		border:0px;
+		bottom:0px;
+		display:block;
+		left:0px;
+		overflow:hidden;
+		padding:0px;
+		position:absolute;
+		margin:0px;
+		right:0px;
+		top:0px;
+	}
+	.scroll-fade-scroll{
+		display:block;
+		padding:0px;
+		position:relative;
+		margin:0px;
+		width:200%;
+		height:100%;
+		overflow-x:hidden;
+		overflow-y:auto;
+	}
+	.scroll-fade-inner{
+		display:block;
+		padding:0px;
+		position:static;
+		margin:0px;
+		width:50%;
+	}
+	.scroll-fade-content{
+		display:block;
+		padding:0px;
+		position:static;
+		margin:0px;
+	}

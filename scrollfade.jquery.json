@@ -1,0 +1,32 @@
+{
+    "name": "scrollfade",
+    "title": "Scroll Fade",
+    "description": "An auto-hiding customizable scroll bar plugin that supports native scrolling/mousewheel/touch.",
+    "keywords": [
+        "scrolling",
+        "scroll",
+        "bar",
+        "scrollbar",
+        "overflow",
+        "vertical",
+        "slider"
+    ],
+    "version": "0.1.4",
+    "author": {
+        "name": "Greg Bate",
+        "url": "https://github.com/gdbate"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/gdbate/jquery-scrollfade/blob/master/licence.md"
+        }
+    ],
+    "bugs": "https://github.com/gdbate/jquery-scrollfade/issues",
+    "homepage": "https://github.com/gdbate/jquery-scrollfade",
+    "docs": "https://github.com/gdbate/jquery-scrollfade/blob/master/README.md",
+    "download": "https://github.com/gdbate/jquery-scrollfade/releases",
+    "dependencies": {
+        "jquery": ">=1.8.3"
+    }
+}

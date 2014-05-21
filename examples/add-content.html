@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="/img/favicon.png">
+  <title>Scroll Fade Basic Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/jquery.scrollfade.css" media="all" rel="stylesheet" type="text/css">
+  <style>
+		body{
+		  background:#eee;
+		}
+		.window{
+		  background:white;
+		  position:absolute;
+		  border:1px solid #ddd;
+		  top:25%;
+		  bottom:25%;
+		  width:40%;
+		  overflow:auto;
+		}
+		p{
+		}
+		button{
+			position:absolute;
+			top:50px;
+			right:25%;
+		}
+		#win1{
+		  left:5%;
+		}
+		#win2{
+		  left:55%;
+		}
+  </style>
+</head>
+<body>
+
+	<button>+Add Content To Right Window</button>
+
+	<div id="win1" class="window">
+		<p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sagittis justo id augue tempor, eu interdum magna lobortis. Phasellus viverra vestibulum est nec mattis. Nunc a arcu nibh. Morbi nec accumsan metus. Aenean sollicitudin nulla in vehicula viverra. Donec rhoncus nisl at ligula ornare fringilla. Etiam aliquam, ante vitae blandit ultrices, nibh massa eleifend tortor, sed ultricies lacus lectus a mi. Vivamus tempus cursus mi, sed rhoncus lectus auctor vel. Phasellus magna leo, pretium nec semper quis, molestie ac urna. Cras interdum, lectus nec dignissim ornare, nulla turpis interdum purus, sit amet condimentum enim erat in mauris. Etiam nec adipiscing justo, luctus viverra risus. Proin ornare quam sed lorem rhoncus, in tristique odio sagittis. Nam ut sagittis velit, sed lobortis eros. Nulla consectetur blandit diam et congue. Nam cursus in arcu nec faucibus. Donec posuere nunc eu nisi mollis faucibus.</span></p>
+		<p><span>Mauris molestie turpis sed ante convallis, et vulputate dui ullamcorper. Nam rutrum velit leo, ut adipiscing nisi semper tincidunt. In consectetur lectus id libero sodales cursus. Vivamus cursus sed ipsum eget auctor. Nam vel sem eu ligula varius ultricies malesuada adipiscing leo. Sed et urna vehicula, hendrerit nibh ut, auctor magna. Sed ornare tempus adipiscing. Aenean scelerisque varius lectus ut ultrices. Cras placerat, leo ut elementum scelerisque, urna ligula auctor mauris, a dictum felis arcu ac mauris. In a magna dapibus, dictum nisl eget, congue lorem. Nullam lectus lectus, aliquet hendrerit tempor ultricies, sodales condimentum massa. Donec ac turpis convallis, rhoncus ipsum eget, iaculis erat. Nulla in sodales leo, vitae tempus augue. Etiam rutrum volutpat aliquet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque eu aliquet quam.</span></p>
+		<p><span>Vivamus eget tristique elit, vitae scelerisque metus. Curabitur feugiat nunc eu sem posuere laoreet. Cras non posuere lorem. Morbi tellus nibh, porttitor et tristique et, imperdiet vel diam. Donec ut sagittis turpis, eget dignissim mauris. Nam id rhoncus nulla, vel bibendum arcu. Praesent nec dictum velit. Duis dapibus quam at leo feugiat tincidunt. Ut eu hendrerit urna, non vehicula lorem.</span></p>
+		<p><span>Proin tempus massa euismod, consequat mi sit amet, congue nisl. Sed fringilla sapien orci, et rhoncus erat fringilla at. Morbi vulputate viverra lacus. Nullam lacus quam, fermentum a sapien eget, ultrices tincidunt sem. Suspendisse porta arcu nulla, eget eleifend augue condimentum ac. Etiam ac nisl massa. Suspendisse porta ipsum erat, ac euismod leo venenatis rutrum. Nulla facilisi. Ut venenatis, neque id porttitor sollicitudin, purus odio consequat erat, a ornare ligula sapien nec mi. Fusce malesuada tempus scelerisque.</span></p>
+		<p><span>Sed fermentum ultricies libero, id pellentesque augue cursus luctus. In hac habitasse platea dictumst. Morbi dignissim tempus quam, euismod volutpat neque porta sit amet. Etiam non lacus sit amet dolor hendrerit molestie sed nec nisi. Duis egestas vehicula turpis, vel congue tortor porta eget. Etiam at vulputate quam. Vestibulum eu leo metus. Vestibulum in faucibus lectus, non viverra odio. Sed ut ultrices odio, sed adipiscing dui. Aenean dui felis, elementum id diam dignissim, imperdiet lacinia nibh. Praesent sit amet mi eu nisi feugiat porttitor.</span></p>
+		<p><span>Quisque dapibus turpis viverra, blandit nisi at, volutpat ante. Aenean scelerisque facilisis enim, quis dignissim dolor ornare luctus. Curabitur interdum, ipsum vitae pellentesque venenatis, nunc orci vehicula lorem, eget consectetur erat velit ut mi. Nullam sed nisl id tortor facilisis gravida. Donec tortor metus, hendrerit vel convallis vel, euismod et odio. Fusce ac pellentesque velit, ut tempus augue. Curabitur ornare, lacus quis cursus ornare, nisl orci ultricies justo, sit amet aliquam arcu risus nec erat. Nunc nibh neque, congue eget rhoncus a, malesuada sed tortor. Morbi leo nunc, tempor eget ante et, commodo tempor justo.</span></p>
+		<p><span>Phasellus ornare volutpat ornare. Mauris sed tellus est. Nam et elit nulla. Cras sit amet mi aliquam, fringilla ligula quis, sollicitudin lorem. Mauris ornare erat condimentum, imperdiet velit in, fermentum purus. Fusce dapibus adipiscing eros a lobortis. Maecenas ac placerat purus. Fusce aliquet, felis vitae feugiat iaculis, nisi velit tincidunt magna, vitae porttitor mi nunc id diam. Donec interdum, tellus in malesuada vehicula, enim tortor pellentesque massa, eget rutrum felis risus pulvinar lorem. Sed consequat, dui a malesuada dignissim, nulla nibh vehicula ipsum, eget consequat lacus tellus quis lectus. Suspendisse at nibh ipsum. Maecenas felis odio, cursus vel nunc vestibulum, volutpat cursus mauris.</span></p>
+	</div>
+
+	<div id="win2" class="window">
+		<br><br>
+		<b>With Less Content..</b>
+		<br><br>
+		try resizing the window smaller
+		<br><br>
+		to make this require a scrollbar
+		<br><br>
+		to test how it works.
+		<br><br>
+		yay!
+		<br><br>
+	</div>
+
+  <script src="../js/jquery-2.1.0.min.js" type="text/javascript"></script>
+  <script src="../js/jquery.scrollfade.js" type="text/javascript"></script>
+  <!--<script src="js/underscore-min.js" type="text/javascript"></script>-->
+  <script type="text/javascript">
+    $(function(){
+			$('.window').scrollfade();
+			$('button').click(function(){
+				$('#win2').scrollfade('append','<br><br>werd');
+			});
+    });
+  </script>
+</body>
+</html>
